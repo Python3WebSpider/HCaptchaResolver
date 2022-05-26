@@ -9,15 +9,16 @@ class CaptchaResolver(object):
         self.api_url = api_url
         self.api_key = api_key
 
-    def create_task(self, image_base64_string, question_id):
-        logger.debug(f'start to recognize image for question {question_id}')
+    def create_task(self, queries, question):
+        logger.debug(f'start to recognize image for question {question}')
         data = {
             "clientKey": self.api_key,
             "task": {
-                "type": "ReCaptchaV2Classification",
-                "image": image_base64_string,
-                "question": question_id
-            }
+                "type": "HCaptchaClassification",
+                "queries": queries,
+                "question": question
+            },
+            "softID": 78
         }
         try:
             response = requests.post(self.api_url, json=data)

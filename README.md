@@ -1,13 +1,13 @@
-# RecaptchaResolver
+# HCaptchaResolver
 
-Recaptcha Resolver
+HCaptcha Resolver
 
 ## Usage
 
 Clone this repo:
 
 ```
-git clone https://github.com/Python3WebSpider/RecaptchaResolver.git
+git clone https://github.com/Python3WebSpider/HCaptchaResolver.git
 ```
 
 Then go to https://yescaptcha.com/i/CnZPBu and register your account, then get a `clientKey` from portal.
@@ -35,4 +35,3 @@ python3 main.py
 Result:
 
 ![image](https://user-images.githubusercontent.com/8678661/170100015-f08385e6-7990-4300-831d-b429cd7f9329.png)
-
