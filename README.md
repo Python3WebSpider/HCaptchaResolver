@@ -34,4 +34,4 @@ python3 main.py
 
 Result:
 
-![image](https://user-images.githubusercontent.com/8678661/170100015-f08385e6-7990-4300-831d-b429cd7f9329.png)
+![image](https://user-images.githubusercontent.com/8678661/170533027-1f06daf2-ee73-4800-948e-851dc9f6a648.png)
